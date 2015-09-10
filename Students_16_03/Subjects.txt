@@ -1,0 +1,10 @@
+﻿Subject1 Lecturer1 2 PMI-21 PMI-22
+Subject2 Lecturer2 2 PMI-21 PMI-31
+Subject3 Lecturer3 2 PMI-22 PMI-31
+Subject4 Lecturer4 3 PMI-21 PMI-22 PMI-31
+Subject5 Lecturer5 1 PMI-21
+Subject6 Lecturer6 1 PMI-22
+Subject7 Lecturer7 1 PMI-31
+Subject8 Lecturer8 1 PMI-22
+Subject9 Lecturer9 1 PMI-31
+Subject10 Lecturer10 1 PMI-21

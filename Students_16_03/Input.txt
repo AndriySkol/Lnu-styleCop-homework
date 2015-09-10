@@ -1,0 +1,29 @@
+﻿PMI-21
+1
+6
+Surname1 Name1 Patronymic1 pmi001 1996
+Surname2 Name2 Patronymic2 pmi002 1995
+Surname3 Name3 Patronymic3 pmi003 1997
+Surname4 Name4 Patronymic4 pmi004 1989
+Surname5 Name5 Patronymic5 pmi005 1996
+Surname6 Name6 Patronymic6 pmi006 1996
+
+PMI-22
+1
+6
+Surname7 Name7 Patronymic7 pmi007 1996
+Surname8 Name8 Patronymic8 pmi008 1994
+Surname9 Name9 Patronymic9 pmi009 1995
+Surname10 Name10 Patronymic10 pmi010 1996
+Surname11 Name11 Patronymic11 pmi011 1996
+Surname12 Name12 Patronymic12 pmi012 1996
+
+PMI-31
+2
+6
+Surname13 Name13 Patronymic13 pmi013 1996
+Surname14 Name14 Patronymic14 pmi014 1994
+Surname15 Name15 Patronymic15 pmi015 1995
+Surname16 Name16 Patronymic16 pmi016 1995
+Surname17 Name17 Patronymic17 pmi017 1995
+Surname18 Name18 Patronymic18 pmi018 1993
