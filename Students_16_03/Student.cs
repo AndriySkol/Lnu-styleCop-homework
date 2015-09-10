@@ -1,38 +1,86 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// <copyright file="Student.cs" company="None">
+//     Company copyright tag.
+// </copyright>
 
 namespace Students_16_03
 {
-    class Student
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+    /// <summary>
+    /// represents information about single student
+    /// </summary>
+    public class Student
     {
-        public string Surname { get; set; }
-        public string Name { get; set; }
-        public string Patronymic { get; set; }
-        public string Id { get; set; }
-        public int Year { get; set; }
-        public Group group { get; set; }
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Student"/> class
+        /// </summary>
         public Student()
         {
-            Surname = "Unknown";
-            Name = "";
-            Patronymic = "";
-            Id = "0";
+            this.Surname = "Unknown";
+            this.Name = string.Empty;
+            this.Patronymic = string.Empty;
+            this.Id = "0";
         }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Student"/> class
+        /// </summary>
+        /// <param name="s"> input surname</param>
+        /// <param name="n"> input name</param>
+        /// <param name="p">input Patronymic</param>
+        /// <param name="i">input Id</param>
+        /// <param name="y">input year</param>
+        /// <param name="g">input group</param>
         public Student(string s, string n, string p, string i, byte y, Group g)
         {
-            Surname = s;
-            Name = n;
-            Patronymic = p;
-            Id = i;
-            Year = y;
-            group = g;
+            this.Surname = s;
+            this.Name = n;
+            this.Patronymic = p;
+            this.Id = i;
+            this.Year = y;
+            this.Group = g;
         }
+
+        /// <summary>
+        /// Gets or sets students surname
+        /// </summary>
+        public string Surname { get; set; }
+        
+        /// <summary>
+        /// Gets or sets students name
+        /// </summary>
+        public string Name { get; set; }
+        
+        /// <summary>
+        /// Gets or sets students patronymic
+        /// </summary>
+        public string Patronymic { get; set; }
+
+        /// <summary>
+        /// Gets or sets represents student id
+        /// </summary>
+        public string Id { get; set; }
+
+        /// <summary>
+        /// Gets or sets year of birth
+        /// </summary>
+        public int Year { get; set; }
+
+        /// <summary>
+        /// Gets or sets student group
+        /// </summary>
+        public Group Group { get; set; }
+
+        /// <summary>
+        /// output to console information about user
+        /// </summary>
         public void Print()
         {
-            Console.WriteLine(Name + " " + Surname + " " + Patronymic + " " + Id + " " + Year.ToString());
+            Console.WriteLine(this.Name + " " + this.Surname + " " + this.Patronymic + " " + this.Id + " " + this.Year.ToString());
         }
     }
 }
